@@ -205,7 +205,7 @@
 
     <!-- Alerta -->
     <div class="alert alert-info" role="alert">
-        Aprovecha las ofertas del momento 
+        Aprovecha las ofertas del momento
     </div>
 
     <!-- Cards Productos  -->
@@ -252,21 +252,50 @@
     </div>
 
     <!-- ¿quienes somos? -->
-    <div class="container conocenos" id="conocenos">
-        <blockquote>
-            <h1>Misión</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore placeat iste ratione
-                iure,minimatempora dignissimos saepe similique earum. Ipsam dolore dicta voluptate? Ipsam dolorum
-                iustorepellendus.Incidunt, ratione.</p>
-        </blockquote>
-        <hr>
-        <blockquote>
-            <h1>Visión</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore placeat iste ratione
-                iure,minima tempora dignissimos saepe similique earum. Ipsam dolore dicta voluptate? Ipsam dolorum
-                iustorepellendus.
-                Incidunt, ratione.</p>
-        </blockquote>
+    <div class="container conocenos">
+        <h2>Conócenos</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h2>Misión</h>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore placeat iste ratione
+                            iure,minima tempora dignissimos saepe similique earum. Ipsam dolore dicta voluptate? Ipsam dolorum
+                            iustorepellendus.
+                            Incidunt, ratione.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <h2>Visión</h2>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore placeat iste ratione
+                                iure,minima tempora dignissimos saepe similique earum. Ipsam dolore dicta voluptate? Ipsam dolorum
+                                iustorepellendus.
+                                Incidunt, ratione.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <!-- Formulario para contactarnos -->
@@ -279,7 +308,7 @@
             <label for="exampleFormControlTextarea1" class="form-label">Dejanos un mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="button"  class="btn btn-outline-light boton">Enviar</button>
+        <button type="button" class="btn btn-outline-light boton">Enviar</button>
 
     </div>
 
